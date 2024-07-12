@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#projects">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-container">
+            <div class="left-container">
+                <img src="images/homepfp.png" alt="Profile Image">
+            </div>
+            <div class="right-container">
+                <h2>HI! I'M JHAY RICH GEREZ</h2>
+                <p>Experienced IT professional with a proven track record in software development, network administration, and cybersecurity. Skilled in various programming languages and technologies, adept at problem-solving and collaborating with teams. Passionate about staying updated with emerging trends to deliver high-quality solutions.</p>
+                <div class="buttons">
+                    <a href="#contact" class="hire-button">HIRE ME</a>
+                    <a href="Document.pdf" class="cv-button">DOWNLOAD CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        <div class="about-container">
+            <div class="container1">
+                <h3>Experience</h3>
+                <p>Video editor, Film making, Content creator, Web Designer.</p>
+            </div>
+            <div class="container2">
+                <img src="images/aboutpfp.png" alt="Profile Image">
+            </div>
+            <div class="container3">
+                <h3>Education</h3>
+                <p>Student in Bachelor of Science in Information Technology</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="works">
+        <div class="projects-intro">
+            <p class="experience-with">EXPERIENCE WITH</p>
+            <ul class="logo-list">
+                <li><img src="images/photoshop.png" alt="Photoshop"></li>
+                <li><img src="images/logos_css-3.png" alt="CSS"></li>
+                <li><img src="images/python.png" alt="Python"></li>
+                <li><img src="images/logos_html-5.png" alt="HTML"></li>
+                <li><img src="images/openmoji_javascript.png" alt="JavaScript"></li>
+            </ul>
+        </div>
+        <h2>MY WORKS</h2>
+        <div class="works-container">
+            <div class="work-item" onclick="window.location.href='https://jekpogi.github.io/ipt101-calculator-app/'">
+                <h3>Calculator App</h3>
+                <p>Click to view ></p>
+            </div>
+            <div class="work-item" onclick="window.location.href='https://jekpogi.github.io/online-resume/'">
+                <h3>Online-Resume</h3>
+                <p>Click to view ></p>
+            </div>
+            <div class="work-item" onclick="window.location.href='https://jekpogi.github.io/rock-paper-sciscor/'">
+                <h3>Rock Paper Scissors</h3>
+                <p>Click to view ></p>
+            </div>
+        </div>
+    </section>
+    s
+    <section id="contact">
+        <div class="contact-container">
+            <div class="social-container">
+                <div class="social-item">
+                    <a href="https://www.facebook.com/jhayrich.gerez.5"><img src="images/logos_facebook.png" alt="Facebook">
+                    <h3>Jhay-Rich Gerez</h3></a>
+                </div>
+                <div class="social-item">
+                    <a href="mailto:jhayrichgerez10@gmail.com"><img src="images/logos_google-gmail.png" alt="Gmail" >
+                    <h3>jhayrichgerez10@gmail.com</h3></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com/jhyrchngrz?igsh=MTBwa3A1Zm5zcTExZg=="><img src="images/skill-icons_instagram.png" alt="Instagram">
+                    <h3>@jhyrchngrz</h3></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.facebook.com/jhayrich.gerez.5"><img src="images/logos_messenger.png" alt="Messenger">
+                    <h3>Jhay-Rich Gerez</h3></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 JHAY-RICH GEREZ</p>
+        <p>All Rights Reserved</p>
+    </footer>
+    
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
